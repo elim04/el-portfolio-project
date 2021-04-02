@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;600;700;900&display=swap");
+
+.introduction {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  width: 700px;
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .introduction {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .introduction {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+}
