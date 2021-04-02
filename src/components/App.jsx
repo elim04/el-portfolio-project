@@ -2,6 +2,7 @@ import Nav from "./Nav";
 import Landing from "./Landing";
 import About from "./About";
 import Projects from "./Projects";
+import Experiments from "./Experiments";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.scss";
 
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route path="/projects">
           <Projects />
+        </Route>
+        <Route path="/experiments">
+          <Experiments />
         </Route>
       </Switch>
     </Router>
