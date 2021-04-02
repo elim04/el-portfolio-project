@@ -1,5 +1,5 @@
 import Nav from "./Nav";
-import Typewriter from "typewriter-effect";
+import Landing from "./Landing";
 import About from "./About";
 import Projects from "./Projects";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -10,17 +10,11 @@ function App() {
     <Router>
       <div className="App">
         <Nav />
-        <div className="introduction">
-          <Typewriter
-            onInit={(typewriter) => {
-              typewriter
-                .typeString("Hi, I'm Emily and I am a web developer.")
-                .start();
-            }}
-          />
-        </div>
       </div>
       <Switch>
+        <Route exact path="/">
+          <Landing />
+        </Route>
         <Route path="/about">
           <About />
         </Route>
