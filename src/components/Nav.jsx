@@ -4,12 +4,20 @@ export default function Nav() {
   return (
     <nav className="navbar">
       <div className="navbar_home">
-        <Link to="/">Home</Link>
+        <Link className="navbar_pages_link" to="/">
+          Home
+        </Link>
       </div>
       <div className="navbar_pages">
-        <Link to="/about">About</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/experiments">Experiments</Link>
+        <Link className="navbar_pages_link" to="/about">
+          About
+        </Link>
+        <Link className="navbar_pages_link" to="/projects">
+          Projects
+        </Link>
+        <Link className="navbar_pages_link" to="/experiments">
+          Experiments
+        </Link>
       </div>
     </nav>
   );
