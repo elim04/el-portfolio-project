@@ -1,16 +1,16 @@
-import Nav from "./Nav";
 import Landing from "./Landing";
 import About from "./About";
 import Projects from "./Projects";
 import Experiments from "./Experiments";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.scss";
+import Home from "./pages";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Nav />
+        <Home />
       </div>
       <Switch>
         <Route exact path="/">
