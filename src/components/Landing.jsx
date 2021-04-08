@@ -6,7 +6,7 @@ export default function Landing() {
       <Typewriter
         onInit={(typewriter) => {
           typewriter
-            .typeString("Hi, I'm Emily and I am a web developer.")
+            .typeString("Hi, I'm Emily and I am a full-stack web developer.")
             .start();
         }}
       />
