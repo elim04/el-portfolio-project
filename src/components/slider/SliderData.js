@@ -1,27 +1,39 @@
-export const SliderData = [
+import ramenImage from "./images/RamenEL.jpeg";
+import coffeeImage from "./images/CoffeeEL.jpg";
+import icelandImage from "./images/icelandEL.jpg";
+import hawaiiImage from "./images/hawaiiEL.jpg";
+import sittingImage from "./images/ELsitting.jpg";
+import japanImage from "./images/japanEL.jpg";
+
+export const sliderData = [
   {
-    image:
-      "https://images.pexels.com/photos/912410/pexels-photo-912410.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    desc: "Emily with Ramen",
+    id: 1,
+    src: hawaiiImage,
+    desc: "Emily in Hawaii",
   },
   {
-    image:
-      "https://images.pexels.com/photos/912410/pexels-photo-912410.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    desc: "Emily",
+    id: 2,
+    src: coffeeImage,
+    desc: "Emily drinking coffee",
   },
   {
-    image:
-      "https://images.pexels.com/photos/4266487/pexels-photo-4266487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    desc: "Emily",
+    id: 3,
+    src: icelandImage,
+    desc: "Emily in Iceland",
   },
   {
-    image:
-      "https://images.pexels.com/photos/6620155/pexels-photo-6620155.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    desc: "Emily",
+    id: 4,
+    src: sittingImage,
+    desc: "Emily sitting in a chair",
   },
   {
-    image:
-      "https://images.pexels.com/photos/5232929/pexels-photo-5232929.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    desc: "Emily",
+    id: 5,
+    src: japanImage,
+    desc: "Emily in Japan",
+  },
+  {
+    id: 6,
+    src: ramenImage,
+    desc: "Emily with a big cup of ramen (bigger than her!)",
   },
 ];

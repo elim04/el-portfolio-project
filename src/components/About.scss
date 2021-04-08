@@ -14,12 +14,13 @@
   align-items: center;
 
   &-image {
-    height: 400px;
-    width: 600px;
+    height: 500px;
+
     border-radius: 10px;
   }
 
   &-right-arrow {
+    position: absolute;
     right: 100px;
     font-size: 3rem;
     color: black;
@@ -29,6 +30,7 @@
   }
 
   &-left-arrow {
+    position: absolute;
     left: 100px;
     font-size: 3rem;
     color: black;
