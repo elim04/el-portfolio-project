@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 const ImageSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -37,14 +37,8 @@ const ImageSlider = ({ slides }) => {
         );
       })}
       <div className="arrows">
-        <FaArrowAltCircleLeft
-          className="slider-left-arrow"
-          onClick={prevSlide}
-        />
-        <FaArrowAltCircleRight
-          className="slider-right-arrow"
-          onClick={nextSlide}
-        />
+        <FaArrowLeft className="slider-left-arrow" onClick={prevSlide} />
+        <FaArrowRight className="slider-right-arrow" onClick={nextSlide} />
       </div>
     </section>
   );
