@@ -1,6 +1,6 @@
 import Landing from "./Landing";
 import About from "./About";
-import Projects from "./Projects";
+import Projects from "./projects/ProjectList";
 import Experiments from "./Experiments";
 import Footer from "./footer/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
