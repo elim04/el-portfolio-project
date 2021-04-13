@@ -6,8 +6,8 @@ import ImageSlider from "./slider/ImageSlider";
 
 const useStyles = makeStyles({
   root: {
-    width: 700,
-    height: 600,
+    width: 600,
+    height: 500,
     alignSelf: "center",
   },
 });
@@ -16,10 +16,12 @@ export default function About() {
   const classes = useStyles();
   return (
     <div className="About">
-      <ImageSlider slides={sliderData} />
+      <div className="about-info"></div>
       <Card className={classes.root}>
-        <CardContent>Hi I am emily!</CardContent>
+        <CardContent>Food Scientist to Coder? Say Whaaat?</CardContent>
+        <CardContent>I have always loved to learn new things. </CardContent>
       </Card>
+      <ImageSlider slides={sliderData} />
     </div>
   );
 }
