@@ -17,10 +17,7 @@ export default function About() {
   return (
     <div className="About">
       <div className="about-info"></div>
-      <Card className={classes.root}>
-        <CardContent>Food Scientist to Coder? Say Whaaat?</CardContent>
-        <CardContent>I have always loved to learn new things. </CardContent>
-      </Card>
+      <p>Hi</p>
       <ImageSlider slides={sliderData} />
     </div>
   );
