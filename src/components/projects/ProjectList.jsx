@@ -3,9 +3,15 @@ import "./Projects.scss";
 
 export default function Projects() {
   return (
-    <div>
-      <ProjectItem></ProjectItem>
-      <ProjectItem></ProjectItem>
-    </div>
+    <section className="projects-section">
+      <div className="container">
+        <ProjectItem></ProjectItem>
+        <ProjectItem></ProjectItem>
+        <ProjectItem></ProjectItem>
+        <ProjectItem></ProjectItem>
+        <ProjectItem></ProjectItem>
+        <ProjectItem></ProjectItem>
+      </div>
+    </section>
   );
 }
