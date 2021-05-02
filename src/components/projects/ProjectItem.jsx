@@ -1,7 +1,7 @@
-import "/ProjectItem.scss";
+import "./ProjectItem.scss";
 
 const ProjectItem = () => {
-  return <div>I am a project item</div>;
+  return <div className="project-item">I am a project item</div>;
 };
 
 export default ProjectItem;
