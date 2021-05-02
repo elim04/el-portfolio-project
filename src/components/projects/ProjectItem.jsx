@@ -1,4 +1,4 @@
-import React from "react";
+import "/ProjectItem.scss";
 
 const ProjectItem = () => {
   return <div>I am a project item</div>;
