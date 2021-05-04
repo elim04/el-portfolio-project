@@ -1,7 +1,7 @@
 import "./ProjectItem.scss";
 
-const ProjectItem = () => {
-  return <div className="project-item">I am a project item</div>;
+const ProjectItem = ({ name, imageSRC, githubLink, description, stack }) => {
+  return <div className="project-item">{name}</div>;
 };
 
 export default ProjectItem;
