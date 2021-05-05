@@ -1,19 +1,10 @@
 import "./About.scss";
-import { makeStyles } from "@material-ui/core/styles";
+
 import { sliderData } from "./slider/SliderData";
 
 import ImageSlider from "./slider/ImageSlider";
 
-const useStyles = makeStyles({
-  root: {
-    width: 600,
-    height: 500,
-    alignSelf: "center",
-  },
-});
-
 export default function About() {
-  const classes = useStyles();
   return (
     <div className="About-section">
       <div className="about-text">

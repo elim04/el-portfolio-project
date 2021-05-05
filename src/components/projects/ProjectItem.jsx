@@ -2,7 +2,12 @@ import "./ProjectItem.scss";
 
 const ProjectItem = ({ name, imageSrc, githubLink, description, stack }) => {
   return (
-    <a className="project-item" href={githubLink} target="_blank">
+    <a
+      className="project-item"
+      href={githubLink}
+      target="_blank"
+      rel="noreferrer"
+    >
       <div>
         <img className="project-item-img" src={imageSrc} alt={name} />
         <h3>{name}</h3>

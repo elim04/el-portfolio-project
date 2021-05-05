@@ -1,14 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;600;700;900&display=swap");
+
 .project-item {
   width: 100%;
   text-align: center;
   text-decoration: none;
   color: black;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: start;
 
   &-img {
     width: 100%;
+    height: auto;
   }
 }
 
-.project-item:hover {
+.project-item-img:hover {
   box-shadow: 10px 10px 5px grey;
 }
