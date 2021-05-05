@@ -1,5 +1,7 @@
 import "./StackButton.scss";
 
-export default StackButton = ({ techStack }) => {
-  return <div></div>;
+const StackButton = (props) => {
+  return <div className="stack-button">{props.children}</div>;
 };
+
+export default StackButton;
