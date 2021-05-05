@@ -1,3 +1,3 @@
 export default function Experiments() {
-  return <div>experiments</div>;
+  return <div>opps, this page is under construction</div>;
 }
