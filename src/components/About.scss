@@ -62,3 +62,28 @@
     user-select: none;
   }
 }
+
+@media screen and (max-width: 786px) {
+  .About-section {
+    .about-text {
+      font-size: 25px;
+
+      .about-title {
+        font-size: 50px;
+      }
+    }
+  }
+  .slider {
+    &-image {
+      height: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .slider {
+    &-image {
+      height: 200px;
+    }
+  }
+}
