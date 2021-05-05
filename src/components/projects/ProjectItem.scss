@@ -13,6 +13,13 @@
     height: auto;
     border-radius: 20px;
   }
+
+  &-stack {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .project-item-img:hover {
