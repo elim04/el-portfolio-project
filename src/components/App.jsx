@@ -14,6 +14,7 @@ function App() {
   return (
     <Router>
       <ThemeProvider theme={lightTheme}>
+        <GlobalStyles />
         <div className="App">
           <Home />
           <Switch>
