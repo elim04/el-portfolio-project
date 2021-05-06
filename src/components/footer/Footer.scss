@@ -9,6 +9,11 @@
   a:visited {
     color: black;
   }
+
+  a:hover {
+    color: rgb(207, 223, 167);
+    transition: 0.2s ease-in-out;
+  }
 }
 
 @media only screen and (max-width: 480px) {
