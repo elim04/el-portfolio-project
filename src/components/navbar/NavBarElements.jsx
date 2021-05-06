@@ -41,7 +41,7 @@ export const NavLogo = styled(Link)`
   text-decoration: none;
 
   &:hover {
-    color: #a8b49a;
+    color: rgb(207, 223, 167);
     transition: 0.2s ease-in-out;
   }
 `;
@@ -91,7 +91,7 @@ export const NavLinks = styled(Link)`
   }
 
   &:hover {
-    color: white;
+    color: rgb(207, 223, 167);
     transition: 0.2s ease-in-out;
   }
 `;
