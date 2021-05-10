@@ -13,4 +13,7 @@ body {
   transition: all 0.25s linear;
 }
 
+a {
+  color: ${({ theme }) => theme.text};
+}
 `;
