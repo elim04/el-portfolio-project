@@ -16,4 +16,8 @@ body {
 a {
   color: ${({ theme }) => theme.text};
 }
+
+.stack-button:hover {
+  color: ${({ theme }) => theme.hover};
+}
 `;
