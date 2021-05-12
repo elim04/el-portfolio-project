@@ -6,6 +6,7 @@ import About from "./About";
 import Projects from "./projects/ProjectList";
 import Experiments from "./Experiments";
 import Footer from "./footer/Footer";
+import Toggle from "./toggle/Toggle";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.scss";
 import Home from "./pages";
@@ -46,7 +47,8 @@ function App() {
             </Route>
           </Switch>
           <Footer />
-          <button onClick={toggleTheme}>Toggle Theme</button>
+          {/* <button onClick={toggleTheme}>Toggle Theme</button> */}
+          <Toggle theme={theme} toggleTheme={toggleTheme} />
         </div>
       </ThemeProvider>
     </Router>
