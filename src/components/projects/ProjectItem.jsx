@@ -6,9 +6,15 @@ import StackButtonList from "./stackbuttons/StackButtonList";
 const ProjectItem = ({ name, imageSrc, githubLink, description, stack }) => {
   return (
     <div className="project-item">
-      <a href={githubLink} target="_blank" rel="noreferrer">
-        <img className="project-item-img" src={imageSrc} alt={name} />
-      </a>
+      <div className="content">
+        <a href={githubLink} target="_blank" rel="noreferrer">
+          <div className="content-overlay"></div>
+          <img className="project-item-img" src={imageSrc} alt={name} />
+          <div className="content-details">
+            <h3 className="content-title">Click here to see on GitHub</h3>
+          </div>
+        </a>
+      </div>
       <div className="project-item-desc">
         <h3>{name}</h3>
         <p>{description}</p>

@@ -47,7 +47,6 @@ function App() {
             </Route>
           </Switch>
           <Footer />
-          {/* <button onClick={toggleTheme}>Toggle Theme</button> */}
           <Toggle theme={theme} toggleTheme={toggleTheme} />
         </div>
       </ThemeProvider>
