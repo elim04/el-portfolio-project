@@ -10,7 +10,7 @@ const ProjectItem = ({ name, imageSrc, githubLink, description, stack }) => {
         <a href={githubLink} target="_blank" rel="noreferrer">
           <div className="content-overlay"></div>
           <img className="project-item-img" src={imageSrc} alt={name} />
-          <div className="content-details">
+          <div className="content-details fadeIn-bottom">
             <h3 className="content-title">Click here to see on GitHub</h3>
           </div>
         </a>
